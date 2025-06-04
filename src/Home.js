@@ -36,10 +36,9 @@ function Home() {
                             {post.title}
                         </Link>
                     </p>
-
-                    <p><strong>Description: </strong>{post.body}</p>
                     <small><b>Author:</b> {getUserName(post.userId).name}</small><br />
-                    <small><b>Username:</b> {getUserName(post.userId).username}</small>
+                    <small><p><strong><b>Description:</b> </strong>{post.body}</p></small><br />
+                    <small><b>Username:</b> {getUserName(post.userId).username}</small><br />
                 </div>
             ))}
         </div>
